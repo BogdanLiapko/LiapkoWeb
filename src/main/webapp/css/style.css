@@ -1,0 +1,162 @@
+.all-content{
+    display:flex;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.center{
+    margin:auto;
+}
+.left{
+    margin-right:auto;
+}
+.right{
+    margin-left:auto;
+}
+.top{
+    margin-bottom:auto;
+}
+.bot{
+    margin-top:auto;
+}
+.row{
+    flex-direction:row;
+}
+.column{
+    flex-direction:column;
+}
+.half-width{
+    width:50%;
+}
+.half-height{
+    height:50%;
+}
+.header{
+    display:flex;
+    width:100%;
+    height:10%;
+    position:fixed;
+    top:0px;
+    background-color:rgb(76, 47, 104);
+    left:0px;
+    z-index:1000;
+}
+*{
+    text-decoration:none;
+}
+a{
+    color:rgb(255, 255, 255);
+    font-size:24px;
+    font-weight:150;
+    display:inline-block;
+    margin:0px 35px;
+}
+.vertical{
+    align-items:center;
+}
+.flex{
+    display:flex;
+}
+.main{
+    display:flex;
+    width:80%;
+    min-height:80%;
+    background-color:rgb(103, 161, 226);
+}
+.panel{
+    display:flex;
+    width:20%;
+    height:60px;
+    margin-left:5%;
+    margin-right:5%;
+    background-color:rgb(255, 255, 255);
+    padding-left:20px;
+    margin-top:2%;
+}
+.panel-container{
+    flex-wrap:wrap;
+    display:flex;
+    width:100%;
+    height:100%;
+}
+.autorization{
+    display:flex;
+    background-color: rgb(136, 116, 155);
+    width:30%;
+    min-height:30%;
+    padding:20px;
+    justify-content:center;
+}
+input[type=text],
+input[type=password],
+input[type=submit],
+input[type=number],
+textarea
+{
+    width:60%;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.jus-center{
+    justify-content:center;
+}
+.panel a{
+    color: black;
+}
+.main input[type=submit]{
+
+    width:15%;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.main textarea{
+
+    width:25%;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.comm{
+    display:flex;
+    width:35%;
+    margin-left:2%;
+    margin-right:2%;
+    background-color:rgb(255, 255, 255);
+    padding-left:10px;
+    margin-top:2%;
+}
+
+.mainmenubtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mainmenubtn:hover {
+    background-color: transparent;
+    }
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    margin-top: 20vh;
+    display: none;
+    background-color: rgb(76, 47, 104);
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
